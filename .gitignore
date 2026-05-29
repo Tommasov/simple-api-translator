@@ -1,0 +1,5 @@
+builds/
+.DS_Store
+Thumbs.db
+*.zip
+build.php
