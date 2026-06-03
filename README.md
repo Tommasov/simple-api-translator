@@ -1,36 +1,36 @@
 # Simple API Translator
 
-Simple API Translator è un plugin per WordPress che consente di tradurre i contenuti di post e pagine in modo rapido ed efficiente, utilizzando i motori di traduzione di OpenAI (GPT-4o-mini) o DeepL.
+Simple API Translator is a WordPress plugin that allows you to translate post and page content quickly and efficiently, using OpenAI (GPT-4o-mini) or DeepL translation engines.
 
-## Caratteristiche
+## Features
 
-- **Motori di traduzione:** Supporto per OpenAI (modello GPT-4o-mini) e DeepL (Free e Pro).
-- **Preservazione dei contenuti:** Mantiene intatti i tag HTML e gli shortcode di WordPress durante la traduzione.
-- **Integrazione WPML:** Supporta il rilevamento delle lingue gestite tramite WPML.
-- **Interfaccia Semplice:** Una metabox dedicata nell'editor dei post per tradurre con un solo clic.
+- **Translation Engines:** Support for OpenAI (GPT-4o-mini model) and DeepL (Free and Pro).
+- **Content Preservation:** Keeps HTML tags and WordPress shortcodes intact during translation.
+- **WPML Integration:** Supports detection of languages managed via WPML.
+- **Simple Interface:** A dedicated metabox in the post editor to translate with a single click.
 
-## Requisiti
+## Requirements
 
-- WordPress 5.0 o superiore.
-- Una chiave API valida per OpenAI o DeepL.
-- (Opzionale) WPML installato per il supporto multilingua avanzato.
+- WordPress 5.0 or higher.
+- A valid API key for OpenAI or DeepL.
+- (Optional) WPML installed for advanced multilingual support.
 
-## Installazione
+## Installation
 
-1. Carica la cartella `simple-api-translator` nella directory `/wp-content/plugins/`.
-2. Attiva il plugin tramite il menu 'Plugin' in WordPress.
+1. Upload the `simple-api-translator` folder to the `/wp-content/plugins/` directory.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
 
-## Configurazione
+## Configuration
 
-Dopo l'attivazione, vai su **Impostazioni > Simple API Translator** per:
-1. Scegliere il motore di traduzione preferito (OpenAI o DeepL).
-2. Inserire la relativa chiave API.
-3. Salvare le impostazioni.
+After activation, go to **Settings > Simple API Translator** to:
+1. Choose your preferred translation engine (OpenAI or DeepL).
+2. Enter the corresponding API key.
+3. Save the settings.
 
-## Utilizzo
+## Usage
 
-Nell'editor di post o pagine, troverai una metabox chiamata "Simple API Translator". Seleziona la lingua di destinazione e clicca sul pulsante per avviare la traduzione automatica del contenuto.
+In the post or page editor, you will find a metabox called "Simple API Translator". Select the target language and click the button to start the automatic translation of the content.
 
-## Autore
+## Author
 
 - **Tommaso Vietina** - [tommasovietina.it](https://www.tommasovietina.it)
